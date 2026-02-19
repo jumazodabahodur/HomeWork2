@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  
+
+    <button class="Add">Add</button>
+
+    <dialog class="AddModal">
+        <form class="AddForm">
+<input type="text" name="name" required placeholder="Name...">
+<input type="text" name="salary" required placeholder="Salary...">
+<input type="text" name="age" required placeholder="Age...">
+<button class="submit" type="submit">Submit</button>
+<button class="close">Close</button>
+        </form>
+    </dialog>
+
+
+    <dialog class="Infomodal">
+        <h1 class="Name"></h1>
+        <h1 class="Salary"></h1>
+        <h1 class="Age"></h1>
+        <button class="closeInfo">Close</button>
+    </dialog>
+
+
+    <table>
+        <thead>
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Salary</th>
+    <th>Age</th>
+    <th>Action</th>
+</tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+
+
+
+        <dialog class="EditModal">
+        <form class="EditForm">
+<input type="text" name="name">
+<input type="text" name="salary">
+<input type="text" name="age">
+<button class="submit" type="submit">Edit</button>
+<button class="close">Close</button>
+        </form>
+    </dialog>
+    <script src="/main.js"></script>
+</body>
+</html>

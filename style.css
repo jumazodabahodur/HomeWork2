@@ -1,0 +1,63 @@
+th{
+    border-bottom: 1px solid black;
+    width: 250px;
+    background-color: blanchedalmond;
+    height: 50px;
+}
+table{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+
+td{
+    text-align: center;
+    border-bottom: 2px solid rgb(87, 85, 85);
+height: 60px;
+}
+
+.Del{
+    background-color: red;
+    color: white;
+    border:none ;
+    height: 30px;
+    border-radius: 10px; 
+    margin-right: 10px;
+}
+.Edit{
+        background-color: rgb(5, 111, 16);
+    color: white;
+    border:none ;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.Info{
+        background-color: rgb(4, 0, 255);
+    color: white;
+    border:none ;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.Add{
+     background-color: rgb(4, 0, 255);
+    color: white;
+    border:none ;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 900px;
+}
+.btnSearch{
+     background-color: rgb(255, 255, 255);
+    color: white;
+    border:none ;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
